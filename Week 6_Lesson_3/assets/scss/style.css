@@ -12,11 +12,29 @@ ul {
   color: white;
 }
 
+.subtitle {
+  color: white;
+}
+
 .logo p {
   font-weight: bold;
   font-size: 20px;
 }
 
+.title h1 {
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
 ul li {
   list-style-type: none;
+}
+
+.subtitle {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.box {
+  height: 50vh;
 }/*# sourceMappingURL=style.css.map */

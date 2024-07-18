@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    border: 0;
+}
+
+body {
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+}
+.jumbo {
+    background-color: #7550FE;
+    color: white;
+    height: 40vh;
+}
+
+.greenBtn {
+    background-color: #24CB98;
+    color: white;
+}

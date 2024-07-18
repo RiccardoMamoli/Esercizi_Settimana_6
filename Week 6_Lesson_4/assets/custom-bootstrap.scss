@@ -1,0 +1,33 @@
+// // Lo scopo è customizzare bootstrap tramite i file sorgente.
+// // Per far questo importo nel mio custom sia function che variables (function viene dichiarato prima)
+
+@import 'scss/functions';
+@import 'scss/variables';
+
+// // Creazione colori con la creazione di 3 nuove variabili
+
+// $new-primary: rgb(188, 23, 23);
+// $new-success: rgb(26, 180, 26);
+// $new-warning: rgb(255, 255, 70);
+
+$greenBtn: 24CB98;
+
+// // Creiamo La nostra mappa colori e spazi
+
+$new-theme-colors: (
+    "greenBtn": $greenBtn,
+);
+
+// // ora fondiamo le due palette di colori e spazi
+
+$theme-colors: map-merge($theme-colors , $new-theme-colors);
+// $spacers: map-merge($spacers , $new-spacers);
+// $grid-breakpoints: map-merge($grid-breakpoints , $new-grid-breakpoints);
+
+
+
+
+
+
+
+@import 'scss/bootstrap.scss';
